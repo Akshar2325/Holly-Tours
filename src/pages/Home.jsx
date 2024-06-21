@@ -12,6 +12,7 @@ import Subtitle from '../shared/Subtitle';
 import SearchBar from '../shared/SearchBar';
 import ServiceList from '../services/ServiceList';
 import FeaturedTourList from '../components/Featured-tours/FeaturedTourList';
+import MasonryImagesGallery from '../components/Image-gallery/MasonryImagesGallery';
 
 const Home = () => {
   return (
@@ -117,6 +118,24 @@ const Home = () => {
               <div className="experience__img">
                 <img src={experienceImg} alt="" />
               </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      {/* =============== Experience section end ===================== */}
+
+
+      {/* =============== Gallary section start ===================== */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg='12'>
+            <Subtitle subtitle={'Gallary'} />
+
+            <h2 className='gallary__title'>Visit our customer tour gallary</h2>
+            </Col>
+            <MasonryImagesGallery/>
+            <Col lg='12'>
             </Col>
           </Row>
         </Container>
