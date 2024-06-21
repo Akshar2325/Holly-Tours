@@ -13,6 +13,7 @@ import SearchBar from '../shared/SearchBar';
 import ServiceList from '../services/ServiceList';
 import FeaturedTourList from '../components/Featured-tours/FeaturedTourList';
 import MasonryImagesGallery from '../components/Image-gallery/MasonryImagesGallery';
+import Testimonial from '../components/Testimonial/Testimonial';
 
 const Home = () => {
   return (
@@ -130,17 +131,39 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg='12'>
-            <Subtitle subtitle={'Gallary'} />
+              <Subtitle subtitle={'Gallary'} />
 
-            <h2 className='gallary__title'>Visit our customer tour gallary</h2>
+              <h2 className='gallary__title'>Visit our customer tour gallary</h2>
             </Col>
-            <MasonryImagesGallery/>
+            <MasonryImagesGallery />
             <Col lg='12'>
             </Col>
           </Row>
         </Container>
       </section>
       {/* =============== Experience section end ===================== */}
+
+
+      {/* =============== Testimonial section start ===================== */}
+
+      <section>
+        <Container>
+          <Row>
+            <Col lg='12'>
+              <Subtitle subtitle={'Fun Loves'} />
+
+              <h2 className="testimonial__title">What our fans say about us</h2>
+            </Col>
+            <Col lg='12'>
+            <Testimonial/>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      {/* =============== Testimonial section end ===================== */}
+
+
     </>
   )
 }
