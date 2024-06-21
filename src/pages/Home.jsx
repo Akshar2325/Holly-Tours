@@ -5,6 +5,8 @@ import heroImg from '../assets/images/hero-img01.jpg'
 import heroImg02 from '../assets/images/hero-img02.jpg'
 import heroVideo from '../assets/images/hero-video.mp4'
 import worldImg from '../assets/images/world.png'
+import experienceImg from '../assets/images/experience.png'
+
 import Subtitle from '../shared/Subtitle';
 
 import SearchBar from '../shared/SearchBar';
@@ -61,24 +63,65 @@ const Home = () => {
               <h5 className="servies__subtitle">What we serve</h5>
               <h2 className='services__title'>We offer our best services</h2>
             </Col>
-            <ServiceList/>
+            <ServiceList />
           </Row>
         </Container>
       </section>
 
       {/* =============== Featured tour section start ===================== */}
       <section>
-      <Container>
-        <Row>
-          <Col lg="12" className='mb-5'>
-            <Subtitle subtitle={"Explore"}/>
-            <h2 className="featured__tour-title">Our Featured Tours</h2>
-          </Col>
-          <FeaturedTourList/>
-        </Row>
-      </Container>
-    </section>
+        <Container>
+          <Row>
+            <Col lg="12" className='mb-5'>
+              <Subtitle subtitle={"Explore"} />
+              <h2 className="featured__tour-title">Our Featured Tours</h2>
+            </Col>
+            <FeaturedTourList />
+          </Row>
+        </Container>
+      </section>
       {/* =============== Featured tour section end ===================== */}
+
+
+      {/* =============== Experience section start ===================== */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg="6">
+              <div className="experience__content">
+                <Subtitle subtitle={"Experience"} />
+                <h2>Will our all experience <br /> we will serve you</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  <br />
+                  Phasellus tempus massa vitae elit consectetur, ut convallis massa ultricies.
+                </p>
+              </div>
+
+              <div className="couter__wrapper d-flex align-items-center gap-5">
+                <div className="counter__box">
+                  <span>12k+</span>
+                  <h6>Successful Trips</h6>
+                </div>
+                <div className="counter__box">
+                  <span>2k+</span>
+                  <h6>Regular Clients</h6>
+                </div>
+                <div className="counter__box">
+                  <span>15+</span>
+                  <h6>Years Experience</h6>
+                </div>
+              </div>
+
+            </Col>
+            <Col lg="6">
+              <div className="experience__img">
+                <img src={experienceImg} alt="" />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      {/* =============== Experience section end ===================== */}
     </>
   )
 }
