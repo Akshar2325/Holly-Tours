@@ -1,20 +1,21 @@
-import tourImg01 from "../images/tour-img01.jpg";
-import tourImg02 from "../images/tour-img02.jpg";
-import tourImg03 from "../images/tour-img03.jpg";
-import tourImg04 from "../images/tour-img04.jpg";
-import tourImg05 from "../images/tour-img05.jpg";
-import tourImg06 from "../images/tour-img06.jpg";
-import tourImg07 from "../images/tour-img07.jpg";
+import tourImg01 from "../images/Varanasi.jpg";
+import tourImg02 from "../images/Haridwar.jpg";
+import tourImg03 from "../images/Kedarnath.jpg";
+import tourImg04 from "../images/Bodh Gaya.jpg";
+import tourImg05 from "../images/Kushinagar.jpg";
+import tourImg06 from "../images/Velankanni.jpg";
+import tourImg07 from "../images/Palitana.jpg";
+import tourImg08 from "../images/Jagannath Puri.jpg";
 
 const tours = [
   {
     id: "01",
-    title: "Westminister Bridge",
-    city: "London",
+    title: "Varanasi",
+    city: "Uttar Pradesh",
     distance: 300,
     price: 99,
     maxGroupSize: 10,
-    desc: "this is the description",
+    desc: "Kashi Vishwanath Temple, Ganga Aarti at Dashashwamedh Ghat, and Sarnath",
     reviews: [
       {
         name: "jhon doe",
@@ -31,12 +32,12 @@ const tours = [
   },
   {
     id: "02",
-    title: "Bali, Indonesia",
-    city: "Indonesia",
+    title: "Haridwar & Rishikesh",
+    city: "Uttarakhand",
     distance: 400,
     price: 99,
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "Ganga Aarti at Har Ki Pauri, Laxman Jhula, and the many yoga and meditation centers in Rishikesh.",
     reviews: [
       {
         name: "jhon doe",
@@ -49,12 +50,12 @@ const tours = [
   },
   {
     id: "03",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "Kedarnath and Badrinath",
+    city: "Uttarakhand",
     distance: 500,
     price: 99,
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "Kedarnath Temple, Badrinath Temple, and the stunning Himalayan scenery.",
     reviews: [
       {
         name: "jhon doe",
@@ -67,12 +68,12 @@ const tours = [
   },
   {
     id: "04",
-    title: "Beautiful Sunrise, Thailand",
-    city: "Thailand",
+    title: "Bodh Gaya",
+    city: "Bihar",
     distance: 500,
     price: 99,
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "Mahabodhi Temple, Bodhi Tree, and the Great Buddha Statue",
     reviews: [
       {
         name: "jhon doe",
@@ -85,12 +86,12 @@ const tours = [
   },
   {
     id: "05",
-    title: "Nusa Pendia Bali, Indonesia",
-    city: "Indonesia",
+    title: "Kushinagar",
+    city: "Uttar Pradesh",
     distance: 500,
     price: 99,
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "Mahaparinirvana Temple, Ramabhar Stupa, and the various international Buddhist temples",
     reviews: [
       {
         name: "jhon doe",
@@ -103,12 +104,12 @@ const tours = [
   },
   {
     id: "06",
-    title: "Cherry Blossoms Spring",
-    city: "Japan",
+    title: "Velankanni",
+    city: "Tamil Nadu",
     distance: 500,
     price: 99,
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "Basilica of Our Lady of Good Health, the Annual Feast in September, and Velankanni Beach.",
     reviews: [
       {
         name: "jhon doe",
@@ -121,12 +122,12 @@ const tours = [
   },
   {
     id: "07",
-    title: "Holmen Lofoten",
-    city: "France",
+    title: "Palitana",
+    city: "Gujarat",
     distance: 500,
     price: 99,
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "Adinath Temple, the climb up the Shatrunjaya hills, and the view from the top",
     reviews: [],
     avgRating: 4.5,
     photo: tourImg07,
@@ -134,15 +135,15 @@ const tours = [
   },
   {
     id: "08",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "Jagannath Puri",
+    city: "Odisha",
     distance: 500,
     price: 99,
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "Jagannath Temple, Puri Beach, and the Puri Beach Festival",
     reviews: [],
     avgRating: 4.5,
-    photo: tourImg03,
+    photo: tourImg08,
     featured: false,
   },
 ];

@@ -1,11 +1,11 @@
 import React from 'react'
 import '../style/home.css'
 import { Container, Row, Col } from 'reactstrap';
-import heroImg from '../assets/images/hero-img01.jpg'
-import heroImg02 from '../assets/images/hero-img02.jpg'
-import heroVideo from '../assets/images/hero-video.mp4'
-import worldImg from '../assets/images/world.png'
-import experienceImg from '../assets/images/experience.png'
+import heroImg from '../assets/images/Tirupati.jpg'
+import heroImg02 from '../assets/images/GoldenTemple.jpg'
+import heroVideo from '../assets/images/Kedarnath.mp4'
+import worldImg from '../assets/images/OM Image.png'
+import experienceImg from '../assets/images/Experience_section_image-removebg-preview (2).png'
 
 import Subtitle from '../shared/Subtitle';
 
@@ -14,6 +14,7 @@ import ServiceList from '../services/ServiceList';
 import FeaturedTourList from '../components/Featured-tours/FeaturedTourList';
 import MasonryImagesGallery from '../components/Image-gallery/MasonryImagesGallery';
 import Testimonial from '../components/Testimonial/Testimonial';
+import NewsSeller from '../shared/NewsLetter';
 
 const Home = () => {
   return (
@@ -30,9 +31,10 @@ const Home = () => {
                   <img src={worldImg} alt="" />
                 </div>
                 <h1>
-                  Traveling opens the doors to creating <span className="highlight"> memories</span>
+                  Embark on a journey to spiritual <span className="highlight"> Enlightenment</span>
                 </h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid sed accusantium omnis sunt consequuntur facilis atque asperiores adipisci explicabo maiores, dolore ratione officiis aliquam amet? Repellendus nihil suscipit nemo perspiciatis.</p>
+                <p>Discover the paths that lead to sacred destinations where history, culture, and spirituality converge. At Holly Tours, we open the doors to transformative pilgrimages that create lasting memories and profound experiences. Each journey is a step closer to inner peace, connection, and the divine.
+                </p>
               </div>
             </Col>
 
@@ -62,7 +64,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg='3'>
-              <h5 className="servies__subtitle">What we serve</h5>
+              <h5 className="servies__subtitle">Our Offerings</h5>
               <h2 className='services__title'>We offer our best services</h2>
             </Col>
             <ServiceList />
@@ -92,28 +94,28 @@ const Home = () => {
             <Col lg="6">
               <div className="experience__content">
                 <Subtitle subtitle={"Experience"} />
-                <h2>Will our all experience <br /> we will serve you</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <h2>With Our Extensive Experience,<br /> We Will Guide You</h2>
+                <p>
+                  Discover the profound spiritual journeys with us.
                   <br />
-                  Phasellus tempus massa vitae elit consectetur, ut convallis massa ultricies.
+                  Our expertise ensures your pilgrimage is enriching and seamless.
                 </p>
               </div>
 
-              <div className="couter__wrapper d-flex align-items-center gap-5">
+              <div className="counter__wrapper d-flex align-items-center gap-5">
                 <div className="counter__box">
                   <span>12k+</span>
-                  <h6>Successful Trips</h6>
+                  <h6>Pilgrimages Organized</h6>
                 </div>
                 <div className="counter__box">
                   <span>2k+</span>
-                  <h6>Regular Clients</h6>
+                  <h6>Satisfied Pilgrims</h6>
                 </div>
                 <div className="counter__box">
                   <span>15+</span>
-                  <h6>Years Experience</h6>
+                  <h6>Years of Service</h6>
                 </div>
               </div>
-
             </Col>
             <Col lg="6">
               <div className="experience__img">
@@ -155,13 +157,18 @@ const Home = () => {
               <h2 className="testimonial__title">What our fans say about us</h2>
             </Col>
             <Col lg='12'>
-            <Testimonial/>
+              <Testimonial />
             </Col>
           </Row>
         </Container>
       </section>
 
       {/* =============== Testimonial section end ===================== */}
+
+
+      {/* =============== NewsLettter section start ===================== */}
+      <NewsSeller />
+      {/* =============== NewsLettter section end ===================== */}
 
 
     </>

@@ -9,18 +9,18 @@ import customizationImg from '../assets/images/customization.png'
 const servicesData = [
   {
     imgUrl: weatherImg,
-    title: "Calculate weather",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    title: "Weather Forecast",
+    desc: "Get the latest weather updates to plan your pilgrimage effectively."
   },
   {
     imgUrl: guideImg,
-    title: "Best Tour Guide",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    title: "Expert Tour Guides",
+    desc: "Experienced guides to enhance your pilgrimage experience."
   },
   {
     imgUrl: customizationImg,
-    title: "Customization",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    title: "Personalized Packages",
+    desc: "Tailor-made packages to suit your pilgrimage needs and preferences."
   },
 ]
 
