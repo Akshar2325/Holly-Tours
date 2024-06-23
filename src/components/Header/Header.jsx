@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { Container, Row, Button } from "reactstrap";
 import { NavLink, Link } from "react-router-dom";
-import logo from "../../assets/images/Logo.png";
+import logo from '../../assets/images/Logo.png';
 import "./Header.css"; // Make sure this path is correct
 
 const nav_links = [
